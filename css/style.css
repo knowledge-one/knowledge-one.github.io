@@ -75,6 +75,10 @@ img.thumbnail {
   width: 100%;
   height: 100%;
 }
+/*图片加阴影*/
+.img-shadow {
+  box-shadow: 3px 2px 3px #ddd;
+}
 .navbar-logo img,
 .footer-logo img {
   max-height: 1.75rem;
