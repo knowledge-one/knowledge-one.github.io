@@ -398,7 +398,7 @@ img.thumbnail {
   padding: 0;
 }
 .content blockquote footer strong + cite {
-  margin-left: 0.5em;
+  margin-left: 0.3em;
 }
 /* ---------------------------------
  *        Fix code highlight
