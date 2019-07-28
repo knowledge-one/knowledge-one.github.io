@@ -1,0 +1,15 @@
+User-agent: * 
+Allow: /
+Allow: /archives/
+Allow: /categories/
+Allow: /page/
+Allow: /post/
+
+
+Disallow: /css/
+Disallow: /images/
+Disallow: /js/
+
+
+Sitemap: https://knowledge-one.github.io/sitemap.xml
+Sitemap: https://knowledge-one.github.io/baidusitemap.xml
