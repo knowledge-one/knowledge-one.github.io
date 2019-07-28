@@ -537,3 +537,12 @@ figure.highlight:hover .copy {
   content: counter(section) "." counter(sub-section) "." counter(composite) " ";
   counter-increment: composite;
 }
+.post-copyright {
+  font-size: 1rem;
+  letter-spacing: 0.02rem;
+  word-break: break-all;
+  margin: 2.5rem 0 0;
+  padding: 1rem 1rem;
+  border-left: 3px solid #ff1700;
+  background-color: #f9f9f9;
+}
