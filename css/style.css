@@ -90,7 +90,9 @@ img.thumbnail {
 .img-shadow {
   box-shadow: 3px 2px 3px #ddd;
 }
-.navbar-logo img,
+.navbar-logo img {
+  max-height: 3rem;
+}
 .footer-logo img {
   max-height: 2.5rem;
 }
