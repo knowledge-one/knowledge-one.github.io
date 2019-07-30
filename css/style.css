@@ -548,3 +548,15 @@ figure.highlight:hover .copy {
   border-left: 3px solid #ff1700;
   background-color: #f9f9f9;
 }
+/* ---------------------------------
+ *         标题下划线动画
+ * --------------------------------- */
+.title a {
+  background-image: linear-gradient(transparent 0%, transparent 65%, #a4c7ff 65%, #a4c7ff 90%, transparent 90%, transparent);
+  background-repeat: no-repeat;
+  background-size: 0 100%;
+  transition: background-size 0.3s cubic-bezier(0.4, 0, 1, 1);
+}
+.title a:hover {
+  background-size: 100% 100%;
+}
